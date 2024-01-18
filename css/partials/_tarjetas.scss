@@ -1,0 +1,26 @@
+.card {
+    margin-top: 1rem;
+    background: #a33737ca;
+    color: white;
+    text-align: center;
+
+}
+
+.espacio {
+    background-image: radial-gradient(circle, #2ad2ac, #26c096, #23ae80, #209d6b, #1d8c57, #127b4e, #076a45, #005a3b, #004535, #02312a, #091e1d, #050707);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+   
+} 
+.foto-campo img:hover{
+    transform: none;
+    transition: transform 0s;
+}
+
+
